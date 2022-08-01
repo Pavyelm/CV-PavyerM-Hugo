@@ -1,0 +1,8 @@
+
+name = "DevResume"
+tags = ["cv", "resume"]
+features = ["responsive"]
+
+[author]
+  name = "Pavyer"
+

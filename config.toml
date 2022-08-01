@@ -1,0 +1,287 @@
+# Page settings
+
+baseURL = "https://CV_ENG_pub.github.io/"
+languageCode = "en"
+title = "cv-pavyel"
+theme = "hugo-devresume-theme"
+googleAnalytics = "UA-XXXXXXX-Y"
+
+
+
+
+
+
+[params]
+    author = "Pavyer"
+    description = "DevResume - Bootstrap 4 Resume"
+
+
+    primaryColor = "#54B689"
+    textPrimaryColor = "#292929"
+
+
+
+
+    [params.profile]
+        enable = true
+        name = "Pavyer Mashayeke"
+        tagline = "Software developer"
+        avatar = "avatar.jpg"
+
+
+
+
+
+
+
+    [params.contact]
+        enable = true
+        location = "Gothenburg"
+
+        [[params.contact.list]]
+        icon = "fas fa-phone-square"
+        url = "tel:#"
+        text = "+4676 2149***"
+        [[params.contact.list]]
+        icon = "fas fa-envelope-square"
+        url = "mailto:#"
+        text = "pavyel.m@gmail.com"
+        [[params.contact.list]]
+        icon = "fas fa-globe"
+        url = "www.techkings.se"  # lägg till hashtag om inte funkar
+        text = "www.techkings.se"
+
+
+
+
+
+
+
+    [params.skills]
+        enable = true
+
+        [[params.skills.list]]
+        title = "Skill list"
+        [[params.skills.list.items]]
+        details = "JavaScript/Angular/React"
+        [[params.skills.list.items]]
+        details = "Python/PHP"
+        [[params.skills.list.items]]
+        details = "HTML/CSS"
+        [[params.skills.list.items]]
+        details = "MySQL"
+        [[params.skills.list.items]]
+        details = "Android"
+        [[params.skills.list.items]]
+        details = "GIS"
+
+        [[params.skills.list]]
+        title = "Professional"
+        [[params.skills.list.items]]
+        details = "Effective communication"
+        [[params.skills.list.items]]
+        details = "Team player"
+        [[params.skills.list.items]]
+        details = "Strong problem solver"
+        [[params.skills.list.items]]
+        details = "Good time management"
+
+
+
+
+
+
+
+
+    [params.education]
+        enable = true
+
+        [[params.education.list]]
+        degree = "BSc in Software development"
+        university = "Dalarna university"
+        dates = "2017 - 2021"
+       # [[params.education.list]]
+       # degree = "BSc Maths and Physics"
+       # university = "Imperial College London"
+       # dates = "2007 - 2010"
+
+
+
+
+
+
+
+
+    [params.awards]
+        enable = false
+
+        [[params.awards.list]]
+        name = "Award Lorem Ipsum"
+        body = "Microsoft lorem ipsum"
+        date = "2019"
+        [[params.awards.list]]
+        name = "Award Donec Sodales"
+        body = "Oracle Aenean"
+        date = "2017"
+
+
+
+
+
+
+
+
+    [params.languages]
+        enable = true
+
+        [[params.languages.list]]
+        name = "Swedish"
+        level = "Native"
+        [[params.languages.list]]
+        name = "English"
+        level = "Professional"
+
+
+
+
+
+
+
+
+    [params.interests]
+        enable = false
+
+        [[params.interests.list]]
+        name = "Climbing"
+        [[params.interests.list]]
+        name = "Snowboarding"
+        [[params.interests.list]]
+        name = "Photography"
+        [[params.interests.list]]
+        name = "Travelling"
+
+
+
+
+
+
+
+
+    [params.summary]
+        enable = true
+        text = "Hard-working with strong drive, loyalty and great ambition for problem solving and technology. Experienced as a safe and calm guy, even in stressful environments. Ive loved technology and computers since childhood, most of my life have been in a computer environment, which has given me good ability to navigate and find solutions within IT regardless of experience. I love problem solving and enjoy using my analytical skills. My personal interest are psychology, IT security, blockchain and web3.0, which I strive to learn more about in my spare time. "
+
+
+
+
+
+
+
+
+    [params.experience]
+        enable = true
+
+        [[params.experience.list]]
+        title = "freelancer"
+        dates = "2021 - Present"
+        company = "Techkings"
+        details = "Started Techkings together with a colleague. Techkings helps companies with web and app development. This has given me an insight into entrepreneurship and an understanding of the importance of putting the customer in focus."
+       # [[params.experience.list.items]]
+       # details = "Lorem ipsum dolor sit amet, consectetuer."
+       # [[params.experience.list.items]]
+       # details = "Aenean commodo ligula eget dolor."
+       # [[params.experience.list.items]]
+       # details = "Etiam ultricies nisi vel augue."
+
+        [[params.experience.list]]
+        title = "Storeworker"
+        dates = "2017 - 2020"
+        company = "Cirkle K"
+        details = "Weekend work alongside studies. The job has given me a great understanding of the customer perspective and the importance of service. Since the work meant long days alone in the store, my independence played a big role, where I had to take many initiatives on my own to keep the store in good condition with a high level of service."
+      #  [[params.experience.list.items]]
+      #  details = "Lorem ipsum dolor sit amet, consectetuer."
+      #  [[params.experience.list.items]]
+      #  details = "Aenean commodo ligula eget dolor."
+
+        [[params.experience.list]]
+        title = "Warehousework"
+        dates = "2016 & 2017"
+        company = "Cinderella, Stockholm"
+        details = "Warehouse work on the ship Cinderella, where the tasks were to unpack and organize heavy goods. I was also responsible for new employees in my second year, which got me to test my leadership skills and communication skills. Although the job involved a fast work pace and long shifts, it suited my personality and drive."
+
+        [[params.experience.list]]
+        title = "Traffic routing"
+        dates = "2013 - 2016"
+        company = "Viaductia/Vägjobb AB, Örebro"
+        details = "Responsible for sign placement, planning the layout and staff placement. The job involved long shifts and a demanding work environment. On this roll my planning, overall thinking and patience played a big part of the daily success. "
+
+
+
+
+
+
+
+
+
+
+
+    [params.projects]
+        enable = false
+
+        [[params.projects.list]]
+        title = "Project Lorem Ipsum"
+        meta = "Open Source"
+        tagline = "You can use this section for your side projects. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+
+        [[params.projects.list]]
+        title = "Project Sed Fringilla"
+        meta = "Open Source"
+        tagline = "You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
+
+        [[params.projects.list]]
+        title = "Project Praesent"
+        meta = "Open Source"
+        tagline = "You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
+
+
+
+
+
+
+
+
+
+
+    [params.information]
+        enable = false
+
+        [[params.information.list]]
+        title = "Papers"
+        [[params.information.list.items]]
+        details = "2018 · Lorem Ipsum"
+        [[params.information.list.items]]
+        details = "2016 · Sed Fringilla"
+
+        [[params.information.list]]
+        title = "Interests"
+        details = "Climbing, Snowboarding, Photography, Travelling"
+
+
+
+
+
+
+
+
+    [params.social]
+        enable = true
+
+        [[params.social.list]]
+        icon = "fab fa-github-square"
+        url = "//github.com/Pavyel.m"
+        title = "My github"
+        [[params.social.list]]
+        icon = "fab fa-linkedin"
+        url = "//linkedin.com/in/Pavyel.m"
+        title = "My linkedin"
+       
