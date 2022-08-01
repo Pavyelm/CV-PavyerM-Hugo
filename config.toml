@@ -1,7 +1,7 @@
 # Page settings
 
-baseURL = "/"
-languageCode = "en"
+baseURL = "https://pavyelm.github.io/cv_eng/"
+languageCode = "en-us"
 title = "cv-pavyel"
 theme = "hugo-devresume-theme"
 googleAnalytics = "UA-XXXXXXX-Y"
