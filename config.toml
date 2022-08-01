@@ -1,6 +1,6 @@
 # Page settings
 
-baseURL = "https://pavyelm.github.io/cv_eng/"
+baseURL = "/"
 languageCode = "en"
 title = "cv-pavyel"
 theme = "hugo-devresume-theme"
