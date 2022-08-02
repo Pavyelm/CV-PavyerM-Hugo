@@ -48,7 +48,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         text = "pavyel.m@gmail.com"
         [[params.contact.list]]
         icon = "fas fa-globe"
-        url = "www.techkings.se"  # lägg till hashtag om inte funkar
+        url = "https://www.techkings.se"  
         text = "www.techkings.se"
 
 
@@ -63,6 +63,10 @@ googleAnalytics = "UA-XXXXXXX-Y"
         [[params.skills.list]]
         title = "Skill list"
         [[params.skills.list.items]]
+        details = "BASH"
+        [[params.skills.list.items]]
+        details = "Linux"
+        [[params.skills.list.items]]
         details = "JavaScript/Angular/React"
         [[params.skills.list.items]]
         details = "Python/PHP"
@@ -71,12 +75,12 @@ googleAnalytics = "UA-XXXXXXX-Y"
         [[params.skills.list.items]]
         details = "MySQL"
         [[params.skills.list.items]]
-        details = "Android"
+        details = "Kotlin"
         [[params.skills.list.items]]
         details = "GIS"
 
         [[params.skills.list]]
-        title = "Professional"
+        title = "Soft skills"
         [[params.skills.list.items]]
         details = "Effective communication"
         [[params.skills.list.items]]
@@ -140,6 +144,9 @@ googleAnalytics = "UA-XXXXXXX-Y"
         [[params.languages.list]]
         name = "English"
         level = "Professional"
+        [[params.languages.list]]
+        name = "Kurdish"
+        level = "Native"
 
 
 
@@ -182,7 +189,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         enable = true
 
         [[params.experience.list]]
-        title = "freelancer"
+        title = "Freelancer"
         dates = "2021 - Present"
         company = "Techkings"
         details = "Started Techkings together with a colleague. Techkings helps companies with web and app development. This has given me an insight into entrepreneurship and an understanding of the importance of putting the customer in focus."
@@ -194,7 +201,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
        # details = "Etiam ultricies nisi vel augue."
 
         [[params.experience.list]]
-        title = "Storeworker"
+        title = "Store worker"
         dates = "2017 - 2020"
         company = "Cirkle K"
         details = "Weekend work alongside studies. The job has given me a great understanding of the customer perspective and the importance of service. Since the work meant long days alone in the store, my independence played a big role, where I had to take many initiatives on my own to keep the store in good condition with a high level of service."
@@ -204,7 +211,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
       #  details = "Aenean commodo ligula eget dolor."
 
         [[params.experience.list]]
-        title = "Warehousework"
+        title = "Warehouse work"
         dates = "2016 & 2017"
         company = "Cinderella, Stockholm"
         details = "Warehouse work on the ship Cinderella, where the tasks were to unpack and organize heavy goods. I was also responsible for new employees in my second year, which got me to test my leadership skills and communication skills. Although the job involved a fast work pace and long shifts, it suited my personality and drive."
@@ -253,18 +260,25 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
 
     [params.information]
-        enable = false
+        enable = true
+        
+        [[params.information.list]]
+        title = "currently reading books"
+        [[params.information.list.items]]
+        details = "Atomic Habits; James clear"
+        [[params.information.list.items]]
+        details = "Structure and Interpretation of Computer Programs; Harold Abelson, Gerald Jay Sussman"
 
         [[params.information.list]]
-        title = "Papers"
+        title = "Enjoyed book read"
         [[params.information.list.items]]
-        details = "2018 · Lorem Ipsum"
+        details = "Can't hurt me Master your Mind and Defy the Odds; David Goggins"
         [[params.information.list.items]]
-        details = "2016 · Sed Fringilla"
-
-        [[params.information.list]]
-        title = "Interests"
-        details = "Climbing, Snowboarding, Photography, Travelling"
+        details = "7 Habits of Highly Effective People;Stephen R. Covey"
+        [[params.information.list.items]]
+        details = "how to win friends and influence people; Dale Carnegie"
+        [[params.information.list.items]]
+        details = "The Psychology of Money; Morgan Housel"
 
 
 
@@ -278,10 +292,10 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
         [[params.social.list]]
         icon = "fab fa-github-square"
-        url = "//github.com/Pavyel.m"
+        url = "https://github.com/Pavyelm"
         title = "My github"
         [[params.social.list]]
         icon = "fab fa-linkedin"
-        url = "//linkedin.com/in/Pavyel.m"
+        url = "https://www.linkedin.com/in/pavel-mashayeke/"
         title = "My linkedin"
        
