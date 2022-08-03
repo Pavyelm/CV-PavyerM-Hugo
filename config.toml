@@ -21,12 +21,12 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
 
 
-
     [params.profile]
         enable = true
         name = "Pavyer Mashayeke"
         tagline = "Software developer"
         avatar = "avatar.jpg"
+        
 
 
 
@@ -298,4 +298,8 @@ googleAnalytics = "UA-XXXXXXX-Y"
         icon = "fab fa-linkedin"
         url = "https://www.linkedin.com/in/pavel-mashayeke/"
         title = "My linkedin"
+        [[params.social.list]]
+        icon = "fab fa-500px"
+        url = "assets/CV_Pavyel_.pdf"
+        title = "DOWNLOAD CV PDF"
        
