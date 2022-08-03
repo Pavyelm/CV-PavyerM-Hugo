@@ -7,18 +7,11 @@ theme = "hugo-devresume-theme"
 googleAnalytics = "UA-XXXXXXX-Y"
 
 
-
-
-
-
 [params]
     author = "Pavyer"
     description = "DevResume - Bootstrap 4 Resume"
-
-
     primaryColor = "#54B689"
     textPrimaryColor = "#292929"
-
 
 
     [params.profile]
@@ -27,12 +20,6 @@ googleAnalytics = "UA-XXXXXXX-Y"
         tagline = "Software developer"
         avatar = "avatar.jpg"
         
-
-
-
-
-
-
 
     [params.contact]
         enable = true
@@ -52,16 +39,11 @@ googleAnalytics = "UA-XXXXXXX-Y"
         text = "www.techkings.se"
 
 
-
-
-
-
-
     [params.skills]
         enable = true
 
         [[params.skills.list]]
-        title = "Skill list"
+        title = "Programing skills"
         [[params.skills.list.items]]
         details = "BASH"
         [[params.skills.list.items]]
@@ -78,7 +60,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         details = "Kotlin"
         [[params.skills.list.items]]
         details = "GIS"
-
+        
         [[params.skills.list]]
         title = "Soft skills"
         [[params.skills.list.items]]
@@ -91,12 +73,6 @@ googleAnalytics = "UA-XXXXXXX-Y"
         details = "Good time management"
 
 
-
-
-
-
-
-
     [params.education]
         enable = true
 
@@ -104,18 +80,8 @@ googleAnalytics = "UA-XXXXXXX-Y"
         degree = "BSc in Software development"
         university = "Dalarna university"
         dates = "2017 - 2021"
-       # [[params.education.list]]
-       # degree = "BSc Maths and Physics"
-       # university = "Imperial College London"
-       # dates = "2007 - 2010"
-
-
-
-
-
-
-
-
+  
+  
     [params.awards]
         enable = false
 
@@ -127,12 +93,6 @@ googleAnalytics = "UA-XXXXXXX-Y"
         name = "Award Donec Sodales"
         body = "Oracle Aenean"
         date = "2017"
-
-
-
-
-
-
 
 
     [params.languages]
@@ -149,12 +109,6 @@ googleAnalytics = "UA-XXXXXXX-Y"
         level = "Native"
 
 
-
-
-
-
-
-
     [params.interests]
         enable = false
 
@@ -168,15 +122,9 @@ googleAnalytics = "UA-XXXXXXX-Y"
         name = "Travelling"
 
 
-
-
-
-
-
-
     [params.summary]
         enable = true
-        text = "Hard-working with strong drive, loyalty and great ambition for problem solving and technology. Experienced as a safe and calm guy, even in stressful environments. Ive loved technology and computers since childhood, most of my life have been in a computer environment, which has given me good ability to navigate and find solutions within IT regardless of experience. I love problem solving and enjoy using my analytical skills. My personal interest are psychology, IT security, blockchain and web3.0, which I strive to learn more about in my spare time. "
+        text = "I’m a committed person in my prime years searching for the ultimate challenge, where I can use the knowledge that I have acquired during my time at University of Dalarna studying System Development. At the same time, I’m looking forward to expanding my experiences and initiate a career within the IT sector. My free time and childhood years have mainly been in front of a computer screen, which have made me quick to learn and adapt to unfamiliar IT systems and overall at ease in IT environments. My passion for IT was the main drive for me to further study IT at university level. Other interests of mine are cyber security, blockchain/web3.0, and psychology, which i strive to learn more about in my spare time. "
 
 
 
@@ -211,7 +159,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
       #  details = "Aenean commodo ligula eget dolor."
 
         [[params.experience.list]]
-        title = "Warehouse work"
+        title = "Warehouse worker"
         dates = "2016 & 2017"
         company = "Cinderella, Stockholm"
         details = "Warehouse work on the ship Cinderella, where the tasks were to unpack and organize heavy goods. I was also responsible for new employees in my second year, which got me to test my leadership skills and communication skills. Although the job involved a fast work pace and long shifts, it suited my personality and drive."
@@ -256,40 +204,32 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
 
 
-
-
-
     [params.information]
         enable = true
         
         [[params.information.list]]
-        title = "currently reading books"
-        [[params.information.list.items]]
-        details = "Atomic Habits; James clear"
+        title = "Currently reading"
         [[params.information.list.items]]
         details = "Structure and Interpretation of Computer Programs; Harold Abelson, Gerald Jay Sussman"
-
+        [[params.information.list.items]]
+        details = "Atomic Habits; James clear"
         [[params.information.list]]
-        title = "Enjoyed book read"
+        title = "Enjoyed books"
+        [[params.information.list.items]]
+        details = "7 Habits of Highly Effective People;Stephen R. Covey"
+        url = "https://github.com/Pavyelm"
         [[params.information.list.items]]
         details = "Can't hurt me Master your Mind and Defy the Odds; David Goggins"
         [[params.information.list.items]]
-        details = "7 Habits of Highly Effective People;Stephen R. Covey"
-        [[params.information.list.items]]
-        details = "how to win friends and influence people; Dale Carnegie"
+        details = "How to win friends and influence people; Dale Carnegie"
         [[params.information.list.items]]
         details = "The Psychology of Money; Morgan Housel"
 
 
 
 
-
-
-
-
     [params.social]
         enable = true
-
         [[params.social.list]]
         icon = "fab fa-github-square"
         url = "https://github.com/Pavyelm"
