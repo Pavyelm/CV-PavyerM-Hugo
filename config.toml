@@ -45,9 +45,9 @@ googleAnalytics = "UA-XXXXXXX-Y"
         [[params.skills.list]]
         title = "Programing skills"
         [[params.skills.list.items]]
-        details = "BASH"
+        details = "Bash"
         [[params.skills.list.items]]
-        details = "Linux"
+        details = "Unix/Linux"
         [[params.skills.list.items]]
         details = "JavaScript/Angular/React"
         [[params.skills.list.items]]
@@ -59,6 +59,8 @@ googleAnalytics = "UA-XXXXXXX-Y"
         [[params.skills.list.items]]
         details = "Kotlin"
         [[params.skills.list.items]]
+        details = "R-Studio"
+         [[params.skills.list.items]]
         details = "GIS"
         
         [[params.skills.list]]
@@ -124,7 +126,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
     [params.summary]
         enable = true
-        text = "I’m a committed person in my prime years searching for the ultimate challenge, where I can use the knowledge that I have acquired during my time at University of Dalarna studying System Development. At the same time, I’m looking forward to expanding my experiences and initiate a career within the IT sector. My free time and childhood years have mainly been in front of a computer screen, which have made me quick to learn and adapt to unfamiliar IT systems and overall at ease in IT environments. My passion for IT was the main drive for me to further study IT at university level. Other interests of mine are cyber security, blockchain/web3.0, and psychology, which i strive to learn more about in my spare time. "
+        text = "I’m a committed person in my prime years pursuing a professional career in software product development. I aim to leverage the knowledge that I have acquired during my time at the University of Dalarna studying System Development in a professionally. Moreover, I'm looking forward to expand my existing knowledge base with experiences working on challenging problems with peers. The university gave me guidance and taught me how to decompose complex problems into manageable ones. My main objective was to sharpen my method of learning individually and as a part of a group. My free time and childhood years have mainly been spent in front of a computer screen, which has made me comfortable, navigating different operating systems. My passion for computers was the main driving force to pursue systems development & engineering academically. I have a slight inclination (in terms of interest) towards cyber security, blockchain technology and psychology, which I enjoy learning more about. I believe that experience, learning by doing and learning by teaching is the true differentiator. Therefore, I seek an opportunity, where I can grow to become an effective part of a whole, where I contribute, develop and accountably learn from mistakes."
 
 
 
@@ -140,7 +142,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         title = "Freelancer"
         dates = "2021 - Present"
         company = "Techkings"
-        details = "Started Techkings together with a colleague. Techkings helps companies with web and app development. This has given me an insight into entrepreneurship and an understanding of the importance of putting the customer in focus."
+        details = "Started Techkings together with a colleague. Techkings helps companies with web development. This has given me some insight into entrepreneurship and appreciation of the importance of customer focus."
        # [[params.experience.list.items]]
        # details = "Lorem ipsum dolor sit amet, consectetuer."
        # [[params.experience.list.items]]
@@ -152,7 +154,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         title = "Store worker"
         dates = "2017 - 2020"
         company = "Cirkle K"
-        details = "Weekend work alongside studies. The job has given me a great understanding of the customer perspective and the importance of service. Since the work meant long days alone in the store, my independence played a big role, where I had to take many initiatives on my own to keep the store in good condition with a high level of service."
+        details = "Weekend work alongside studies. The job has given me a great understanding of the customer perspective and the importance of service. Since the work meant long days alone in the store, my independence played a big role, where I was held accountable to keep the store in good condition with a high level of service at all times."
       #  [[params.experience.list.items]]
       #  details = "Lorem ipsum dolor sit amet, consectetuer."
       #  [[params.experience.list.items]]
@@ -162,13 +164,13 @@ googleAnalytics = "UA-XXXXXXX-Y"
         title = "Warehouse worker"
         dates = "2016 & 2017"
         company = "Cinderella, Stockholm"
-        details = "Warehouse work on the ship Cinderella, where the tasks were to unpack and organize heavy goods. I was also responsible for new employees in my second year, which got me to test my leadership skills and communication skills. Although the job involved a fast work pace and long shifts, it suited my personality and drive."
+        details = "Warehouse work on the Cinderella ferry between Sweden & Finland. The tasks were to unpack and organize heavy goods. I was also responsible for new employees in my second year, which gave me the opportunity to practice mentorship and communication. Although, the job entailed a high work pace and long shifts, it suited my personality and drive. "
 
         [[params.experience.list]]
         title = "Traffic routing"
         dates = "2013 - 2016"
         company = "Viaductia/Vägjobb AB, Örebro"
-        details = "Responsible for sign placement, planning the layout and staff placement. The job involved long shifts and a demanding work environment. On this roll my planning, overall thinking and patience played a big part of the daily success. "
+        details = "Responsible for sign placement, planning the layout and staff placement. The job involved long shifts and a demanding work environment. In this role, I developed my time-management and patience. "
 
 
 
