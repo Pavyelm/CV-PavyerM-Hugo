@@ -183,23 +183,19 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
 
     [params.projects]
-        enable = false
+        enable = true
 
         [[params.projects.list]]
-        title = "Project Lorem Ipsum"
-        meta = "Open Source"
-        tagline = "You can use this section for your side projects. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
-
+        title = "asp.net_MVC_C# /Macro-tracker-webapp "
+        meta = "https://github.com/Pavyelm/Project_Webapp.net_CalProTein"
+        tagline = "Developed in asp.net 6 core MVC(vs2022).For daily tracking of calories and protein through a custom list."
+        
         [[params.projects.list]]
-        title = "Project Sed Fringilla"
-        meta = "Open Source"
-        tagline = "You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
+        title = "Golang_React_mongoDB /Macro-tracker"
+        meta = "WorkingOn coming soon!"
+        tagline = "Backend = Golang, Database = MongoDB, Frontend = React/React-bootstrap/Package-Axios"
 
-        [[params.projects.list]]
-        title = "Project Praesent"
-        meta = "Open Source"
-        tagline = "You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
-
+       
 
 
 
@@ -215,20 +211,6 @@ googleAnalytics = "UA-XXXXXXX-Y"
         details = "Structure and Interpretation of Computer Programs; Harold Abelson, Gerald Jay Sussman"
         [[params.information.list.items]]
         details = "Atomic Habits; James clear"
-        [[params.information.list]]
-        title = "Enjoyed books"
-        [[params.information.list.items]]
-        details = "7 Habits of Highly Effective People;Stephen R. Covey"
-        url = "https://github.com/Pavyelm"
-        [[params.information.list.items]]
-        details = "Can't hurt me Master your Mind and Defy the Odds; David Goggins"
-        [[params.information.list.items]]
-        details = "How to win friends and influence people; Dale Carnegie"
-        [[params.information.list.items]]
-        details = "The Psychology of Money; Morgan Housel"
-
-
-
 
     [params.social]
         enable = true
