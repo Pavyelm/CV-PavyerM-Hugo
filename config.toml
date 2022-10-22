@@ -190,14 +190,12 @@ googleAnalytics = "UA-XXXXXXX-Y"
         meta = "https://github.com/Pavyelm/Project_Webapp.net_CalProTein"
         url = "https://github.com/Pavyelm/Project_Webapp.net_CalProTein"
         
-        tagline = "Developed in asp.net 6 core MVC(vs2022).For daily tracking of calories and protein through a custom list stored in localhost"
+        tagline = "Developed in asp.net 6 core MVC(vs2022).For daily tracking of calories and protein through adding from custom list stored in localhost, then calculates total macro values"
         
         [[params.projects.list]]
         title = "Macro-tracker using /Golang_React_mongoDB /"
         meta = "WorkingOn coming soon!"
         tagline = "Backend = Golang, Database = MongoDB, Frontend = React/React-bootstrap/Package-Axios"
-
-       
 
 
 
