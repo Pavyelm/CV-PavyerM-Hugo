@@ -186,7 +186,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         enable = true
 
         [[params.projects.list]]
-        title = "Macro-tracker-webapp /asp.net_MVC_C# / "
+        title = "Macro-tracker-webapp ---asp.net_MVC_C#    :link======>"
         meta = "https://github.com/Pavyelm/Project_Webapp.net_CalProTein"
         url = "https://github.com/Pavyelm/Project_Webapp.net_CalProTein"
         
